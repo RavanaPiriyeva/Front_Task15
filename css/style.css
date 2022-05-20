@@ -1,0 +1,32 @@
+img{
+    width:300px;
+}
+i{
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+div div{
+    position: relative;
+    border : rgb(122, 122, 82) 1px solid;
+}
+.close-item{
+    font-size: 35px;
+      position: absolute;
+     left: 220px;
+     top: 10px;
+     background-color: rgba(255, 0, 0, 0.671);
+     padding: 0 20px;
+     border-radius: 35px;
+     color: white;
+     
+}
+#imgUploadBox{
+    display: block;
+    text-align: center;
+}
+#imgSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
